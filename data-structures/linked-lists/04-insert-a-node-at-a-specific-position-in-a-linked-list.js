@@ -1,5 +1,5 @@
 function insert(head, data, position) {
-    let newNode = new Node(data);
+    const newNode = new Node(data);
 
     if (head === null || position === 0) {
         newNode.next = head;
