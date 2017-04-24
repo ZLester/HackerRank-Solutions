@@ -1,5 +1,4 @@
 function processData(input) {
-    //Enter your code here
     input = input.split('\n').map((v) => v.split(' ').map(Number));
 
     const [n, d] = input[0];
