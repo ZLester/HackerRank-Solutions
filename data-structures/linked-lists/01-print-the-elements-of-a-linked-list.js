@@ -1,5 +1,5 @@
 function print(head) {
-    while (head !== null) {
+    while (head) {
         console.log(head.data);
         head = head.next;
     }
